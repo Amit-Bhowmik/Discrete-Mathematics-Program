@@ -49,7 +49,6 @@ int main()
 
     int only_one_lang = Only_E + Only_F + Only_G;
 
-
     // int only_one_lang = E + F + G - 2 * exactly_two_lang - 3 * all_three_lang;
 
     cout << "Number of students who know all three languages: " << all_three_lang << endl;
