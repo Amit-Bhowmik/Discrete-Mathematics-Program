@@ -38,7 +38,7 @@ int main()
 
     int exactly_two_lang = E_and_F + F_and_G + E_and_G - 3 * all_three_lang;
 
-    /* For Finding only one Language*/
+    /* For Finding only one Language
     int  Only_E_and_F = 37 - 12;
     int  Only_F_and_G = 28 - 12;
     int  Only_E_and_G = 25 - 12;
@@ -48,8 +48,9 @@ int main()
     int Only_G = 46 - 13 - 12 - 16; // Using Venn diagram
 
     int only_one_lang = Only_E + Only_F + Only_G;
+    */
 
-    // int only_one_lang = E + F + G - 2 * exactly_two_lang - 3 * all_three_lang;
+    int only_one_lang = E + F + G - 2 * exactly_two_lang - 3 * all_three_lang;
 
     cout << "Number of students who know all three languages: " << all_three_lang << endl;
     cout << "Number of students who know exactly two languages: " << exactly_two_lang << endl;
